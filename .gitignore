@@ -1,0 +1,24 @@
+# Data #
+###################
+*.pickle
+
+# IDEA config files #
+###################
+*/.idea/workspace.xml
+*/.idea/tasks.xml
+
+# vscode #
+###################
+.vscode
+
+# pycache #
+############
+__pycache__/
+
+# Notebooks files #
+###################
+.ipynb_checkpoints/
+
+# specific files #
+######################
+

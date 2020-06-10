@@ -1,0 +1,9 @@
+{
+  "server": "server",
+  "database": "database",
+  "schema": "schema",
+  "table": "table",
+  "user": "user",
+  "password": "password",
+  "driver": "driver"
+}
