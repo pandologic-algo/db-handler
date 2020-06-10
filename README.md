@@ -9,7 +9,7 @@ Need to be completed
 
 ## 1.	Installation process
 ```shell
-pip install git+https://github.com/Brillone/db-handler
+pip install git+https://github.com/pandologic-algo/db-handler
 ```
 
 ## 2. Examples
