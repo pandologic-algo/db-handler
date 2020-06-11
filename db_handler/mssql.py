@@ -59,14 +59,16 @@ class MSSQLTableReader(_BaseReader):
                 order_by_statement = ' ORDER BY(SELECT NULL)'
 
             max_offset = math.inf
+            
             if top is not None:
-                max_offset = top
+                max_offset = top + offset
+
+            fetch_all_finished = False
+
+            if chunk_size > top:
+                chunk_size = top
 
             try:
-                fetch_all_finished = False
-
-                if chunk_size > max_offset:
-                    chunk_size = max_offset
 
                 while not fetch_all_finished:
                     if column is None:
